@@ -1,5 +1,5 @@
 # Text Mask Zero            
-A free and open-source webpage that masks a message under another message. It runs entirely on the front end and is built with Brython!
+A free and open-source webpage that masks a message under another message. Runs entirely on the front end and is built with Brython!
 
 ### Where Am I? 
 Welcome! This is the GitHub repo for **Text Mask Zero**, a website that allows you to "encode" and hide any `ascii` text under some other text by using zero-width characters.
