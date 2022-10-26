@@ -13,4 +13,4 @@ Zero-width characters are interesting! They cannot be seen normally but are stil
 Yes! Since all of the processes are done on the client side, __no data is ever sent to either any server or other parties__. (That's the magic of `Brython`. It allows Python code to run on a webpage without a server.)
 
 ### Sounds Great! How do I Use It?
-Just follow the link <> and start typing away. Yes, it is that easy.
+Just follow the link <https://rawcdn.githack.com/thaitri2005/Text-Mask-Zero/d229cb8e8693e08ddd65ce2ecb24dce3ff7c268d/index.html> and start typing away. Yes, it is that easy.
