@@ -3,6 +3,7 @@
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
+
         <script type="text/javascript"
              src="https://cdnjs.cloudflare.com/ajax/libs/brython/3.8.8/brython.js" integrity="sha256-rA89wPrTJJQFWJaZveKW8jpdmC3t5F9rRkPyBjz8G04=" crossorigin="anonymous">
             </script>
@@ -39,7 +40,7 @@
                 <script type="text/python" id="script0">
 
                 from browser import document
-                import TextMaskZero
+                import project
 
                 element_x = document['before_encode']
                 element_y = document['mask']
@@ -54,7 +55,7 @@
                         pass
 
                     if x and y:
-                        element_result.value =  TextMaskZero.main(x,y)
+                        element_result.value =  project.main(x,y)
                     else:
                         element_result.value = ''
 
@@ -74,7 +75,7 @@
                 </div>
 
                 <script type="text/python" id="script1">
-                    import TextMaskZero
+                    import project
                     from browser import document
                     element_d = document['before_decode']
                     element_out = document['after_decode']
@@ -86,7 +87,7 @@
                         except ValueError:
                             pass
                         if d:
-                            element_out.value =  TextMaskZero.main(d)
+                            element_out.value =  project.main(d)
                         else:
                             element_out.value = ''
 

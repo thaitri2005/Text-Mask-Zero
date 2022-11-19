@@ -33,7 +33,7 @@ h1 {
 
 .box {
   margin-top: 5px;
-  width: 500px;
+  width: 450px;
   height: 140px;
   resize: none;
   border: 1px #ccc solid;
@@ -41,7 +41,7 @@ h1 {
 }
 .column {
   float: left;
-  width: 42%;
+  width: 47%;
 }
 
 .row:after {
